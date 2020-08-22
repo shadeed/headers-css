@@ -1,0 +1,1 @@
+let navToggle=document.querySelector(".nav__toggle"),navWrapper=document.querySelector(".nav__wrapper");function showNav(){navWrapper.classList.toggle("active")}navToggle.addEventListener("click",showNav);
