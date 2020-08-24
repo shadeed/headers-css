@@ -6,7 +6,9 @@
   margin-right: auto;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: border-box;
 }
 
@@ -15,8 +17,13 @@ a {
   color: #222;
 }
 
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
 body {
-  font-family: 'Arial';
+  font-family: "Arial";
 }
 
 .sr-only {

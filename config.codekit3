@@ -39,6 +39,30 @@
 		"oAP": "/header-3.html",
 		"oF": 0
 		},
+	"/header-4.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/header-4.html",
+		"oF": 0
+		},
+	"/header-5.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/header-5.html",
+		"oF": 0
+		},
+	"/header-6.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/header-6.html",
+		"oF": 0
+		},
 	"/img/burger.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -54,6 +78,16 @@
 		"miP": 0,
 		"oA": 2,
 		"oAP": "/img/header-3/search.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/img/header-5/close.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/img/header-5/close.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 52780316221407,
@@ -132,6 +166,50 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"/js/header-4.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/js/header-4-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/js/header-5-min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/js/header-5-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/js/header-5.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/js/header-5-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/js/header-6.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/js/header-6-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"/styles/header-1.css": {
 		"aP": 1,
 		"bl": 0,
@@ -159,6 +237,26 @@
 		"ma": 0,
 		"oA": 0,
 		"oAP": "/styles/header-3-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/styles/header-4.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/styles/header-4-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/styles/header-5.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/styles/header-5-min.css",
 		"oF": 0,
 		"oS": 3
 		},
@@ -197,6 +295,45 @@
 		"ma": 0,
 		"oA": 0,
 		"oAP": "/styles/header-3.css",
+		"oF": 2,
+		"oS": 0,
+		"sct": 1
+		},
+	"/styles/headers/header-4.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/styles/header-4.css",
+		"oF": 2,
+		"oS": 0,
+		"sct": 1
+		},
+	"/styles/headers/header-5.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/styles/header-5.css",
+		"oF": 2,
+		"oS": 0,
+		"sct": 1
+		},
+	"/styles/headers/header-6.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/styles/header-6.css",
 		"oF": 2,
 		"oS": 0,
 		"sct": 1
