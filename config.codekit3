@@ -63,6 +63,30 @@
 		"oAP": "/header-6.html",
 		"oF": 0
 		},
+	"/header-7.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/header-7.html",
+		"oF": 0
+		},
+	"/header-8.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/header-8.html",
+		"oF": 0
+		},
+	"/header-9.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/header-9.html",
+		"oF": 0
+		},
 	"/img/burger.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -210,6 +234,28 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"/js/header-7.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/js/header-7-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/js/header-8.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/js/header-8-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"/styles/header-1.css": {
 		"aP": 1,
 		"bl": 0,
@@ -257,6 +303,36 @@
 		"ma": 0,
 		"oA": 0,
 		"oAP": "/styles/header-5-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/styles/header-6.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/styles/header-6-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/styles/header-7.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/styles/header-7-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/styles/header-8.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/styles/header-8-min.css",
 		"oF": 0,
 		"oS": 3
 		},
@@ -334,6 +410,55 @@
 		"ma": 0,
 		"oA": 0,
 		"oAP": "/styles/header-6.css",
+		"oF": 2,
+		"oS": 0,
+		"sct": 1
+		},
+	"/styles/headers/header-7.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/styles/headers/header-7-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/styles/headers/header-7.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/styles/header-7.css",
+		"oF": 2,
+		"oS": 0,
+		"sct": 1
+		},
+	"/styles/headers/header-8.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/styles/header-8.css",
+		"oF": 2,
+		"oS": 0,
+		"sct": 1
+		},
+	"/styles/headers/header-9.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/styles/header-9.css",
 		"oF": 2,
 		"oS": 0,
 		"sct": 1
