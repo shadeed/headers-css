@@ -31,6 +31,14 @@
 		"oAP": "/header-10.html",
 		"oF": 0
 		},
+	"/header-11.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/header-11.html",
+		"oF": 0
+		},
 	"/header-2.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -183,6 +191,17 @@
 		"mi": 1,
 		"oA": 0,
 		"oAP": "/js/header-10-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/js/header-11.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/js/header-11-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -408,6 +427,19 @@
 		"ma": 0,
 		"oA": 0,
 		"oAP": "/styles/header-10.css",
+		"oF": 2,
+		"oS": 0,
+		"sct": 1
+		},
+	"/styles/headers/header-11.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/styles/header-11.css",
 		"oF": 2,
 		"oS": 0,
 		"sct": 1

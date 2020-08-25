@@ -142,19 +142,17 @@ $large: 1200;
   font-size: 0;
   width: 34px;
   height: 34px;
-  background: url("../img/header-3/search.svg") center right/22px no-repeat;
+  background: url("../img/header-3/search.svg") center/22px no-repeat;
   border: 0;
-
-  @media (min-width: 940px) {
-    border-left: 1px solid #979797;
-    padding-left: 10px;
-  }
 
   @media (max-width: 940px - 1) {
     position: absolute;
     right: 5.5rem;
     top: 0.65rem;
-    background: url("../img/header-3/search.svg") center/22px no-repeat;
+  }
+
+  &.active {
+    background: url("../img/header-5/close.svg") center/22px no-repeat;
   }
 }
 
