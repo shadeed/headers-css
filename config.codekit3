@@ -39,6 +39,30 @@
 		"oAP": "/header-11.html",
 		"oF": 0
 		},
+	"/header-12.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/header-12.html",
+		"oF": 0
+		},
+	"/header-13.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/header-13.html",
+		"oF": 0
+		},
+	"/header-14.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/header-14.html",
+		"oF": 0
+		},
 	"/header-2.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -206,6 +230,61 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"/js/header-12.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/js/header-12-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/js/header-13-min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/js/header-13-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/js/header-13.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/js/header-13-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/js/header-14-min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/js/header-14-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/js/header-14.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/js/header-14-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"/js/header-2.js": {
 		"bF": 0,
 		"ft": 64,
@@ -325,6 +404,46 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"/styles/header-11.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/styles/header-11-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/styles/header-12.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/styles/header-12-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/styles/header-13.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/styles/header-13-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/styles/header-14.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/styles/header-14-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"/styles/header-2.css": {
 		"aP": 1,
 		"bl": 0,
@@ -440,6 +559,45 @@
 		"ma": 0,
 		"oA": 0,
 		"oAP": "/styles/header-11.css",
+		"oF": 2,
+		"oS": 0,
+		"sct": 1
+		},
+	"/styles/headers/header-12.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/styles/header-12.css",
+		"oF": 2,
+		"oS": 0,
+		"sct": 1
+		},
+	"/styles/headers/header-13.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/styles/header-13.css",
+		"oF": 2,
+		"oS": 0,
+		"sct": 1
+		},
+	"/styles/headers/header-14.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/styles/header-14.css",
 		"oF": 2,
 		"oS": 0,
 		"sct": 1

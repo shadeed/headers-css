@@ -1,0 +1,86 @@
+.button {
+  appearance: none;
+  color: #fff;
+  background-color: #2fa0f6;
+  min-width: 120px;
+  padding: 0.5rem 1rem;
+  text-align: center; }
+  .button svg {
+    display: inline-block;
+    vertical-align: middle;
+    width: 24px;
+    height: 24px;
+    fill: #fff; }
+  .button span {
+    display: none; }
+    @media (min-width: 600px) {
+      .button span {
+        display: initial; } }
+.button--icon {
+  min-width: initial;
+  padding: 0.5rem; }
+
+.site-header {
+  position: relative;
+  background-color: #def7ff; }
+
+.brand {
+  font-weight: bold;
+  font-size: 20px; }
+
+.site-header__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-top: 1rem;
+  padding-bottom: 1rem; }
+
+.site-header__start {
+  display: flex; }
+  .site-header__start > * + * {
+    margin-left: 1rem; }
+
+@media (max-width: 599px) {
+  .site-header__middle {
+    flex: 0 0 100%;
+    order: 2;
+    margin-top: 1rem; } }
+
+.nav__wrapper {
+  position: fixed;
+  top: 56px;
+  left: 0;
+  width: Max(220px, 20%);
+  bottom: 0;
+  z-index: 1;
+  visibility: hidden;
+  opacity: 0;
+  transform: translateX(-100%);
+  background-color: #d9f0f7;
+  transition: 0.3s ease-out;
+  display: block; }
+  .nav__wrapper.active {
+    visibility: visible;
+    opacity: 1;
+    transform: translateX(0); }
+  @media (max-width: 599px) {
+    .nav__wrapper {
+      top: 104px;
+      /* Use a CSS variable and get JS help */ } }
+.nav__item {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2); }
+  .nav__item a {
+    display: block;
+    padding: 1rem; }
+
+.sub-nav {
+  display: flex;
+  flex-wrap: wrap; }
+  .sub-nav li:not(:last-child) {
+    margin-right: 1.5rem; }
+  @media (max-width: 599px) {
+    .sub-nav {
+      background: rgba(0, 0, 0, 0.1);
+      margin: 0 -1rem -1rem;
+      padding: 1rem; } }
