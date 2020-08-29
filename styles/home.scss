@@ -89,11 +89,35 @@ section {
 
 .content {
   p {
-    font-size: 1.125rem;
+    //font-size: 1.125rem;
   }
 
   > * + * {
     margin-top: 1rem;
+  }
+}
+
+.demo {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: -1rem;
+
+  li {
+    margin-right: 0.7rem;
+    margin-bottom: 0.7rem;
+  }
+
+  a {
+    display: inline-block;
+    background: #def7ff;
+    padding: 0.5rem 0.75rem;
+    font-size: 14px;
+    transition: 0.3s ease-out;
+
+    &:hover {
+      color: #fff;
+      background-color: #101a33;
+    }
   }
 }
 
@@ -135,6 +159,7 @@ footer {
   height: 70px;
   flex: 0 0 70px;
   object-fit: cover;
+  border: 2px solid #fff;
 }
 
 .author-meta {

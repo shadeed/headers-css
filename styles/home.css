@@ -62,11 +62,25 @@ section {
   .link--secondary:hover {
     border-color: #101a33; }
 
-.content p {
-  font-size: 1.125rem; }
-
 .content > * + * {
   margin-top: 1rem; }
+
+.demo {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: -1rem; }
+  .demo li {
+    margin-right: 0.7rem;
+    margin-bottom: 0.7rem; }
+  .demo a {
+    display: inline-block;
+    background: #def7ff;
+    padding: 0.5rem 0.75rem;
+    font-size: 14px;
+    transition: 0.3s ease-out; }
+    .demo a:hover {
+      color: #fff;
+      background-color: #101a33; }
 
 footer {
   padding: 2rem 1rem;
@@ -95,7 +109,8 @@ footer {
   width: 70px;
   height: 70px;
   flex: 0 0 70px;
-  object-fit: cover; }
+  object-fit: cover;
+  border: 2px solid #fff; }
 
 .author-meta {
   flex: 1; }
