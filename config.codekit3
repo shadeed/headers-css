@@ -223,6 +223,17 @@
 		"plM": 52780316221407,
 		"prP": 0
 		},
+	"/img/shadeed.jpg": {
+		"ft": 16384,
+		"iS": 209340,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/shadeed.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/index.html": {
 		"cB": 0,
 		"ft": 8192,
