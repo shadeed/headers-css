@@ -32,7 +32,9 @@ header {
     margin-top: 0.7rem; }
   header img {
     width: 50px; }
-
+  @media (min-width: 720px) {
+    header {
+      padding: 5rem 1rem; } }
 section {
   padding: 2rem 1rem; }
 
@@ -67,8 +69,7 @@ section {
 
 .demo {
   display: flex;
-  flex-wrap: wrap;
-  margin-bottom: -1rem; }
+  flex-wrap: wrap; }
   .demo li {
     margin-right: 0.7rem;
     margin-bottom: 0.7rem; }

@@ -46,6 +46,10 @@ header {
   img {
     width: 50px;
   }
+
+  @media (min-width: 720px) {
+    padding: 5rem 1rem;
+  }
 }
 
 section {
@@ -100,7 +104,6 @@ section {
 .demo {
   display: flex;
   flex-wrap: wrap;
-  margin-bottom: -1rem;
 
   li {
     margin-right: 0.7rem;
