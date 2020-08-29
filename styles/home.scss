@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+$color-primary: #3863d9;
+
+.wrapper {
+  max-width: 680px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body {
+  font-family: "Roboto";
+  line-height: 1.4;
+}
+
+strong {
+  font-weight: bold;
+}
+
+img {
+  max-width: 100%;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+header {
+  text-align: center;
+  color: #fff;
+  background: $color-primary url("../img/cover.png") center/cover no-repeat;
+  padding: 2rem 1rem;
+
+  h1 {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+
+  > * + * {
+    margin-top: 0.7rem;
+  }
+
+  img {
+    width: 50px;
+  }
+}
+
+section {
+  padding: 2rem 1rem;
+}
+
+.links-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.link {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  background-color: #fff;
+  color: #222;
+  border: 1px solid transparent;
+  transition: 0.3s ease-out;
+
+  &:first-child {
+    margin-right: 1rem;
+  }
+
+  &:hover {
+    color: #fff;
+    background-color: #101a33;
+  }
+}
+
+.link--secondary {
+  color: #fff;
+  background-color: transparent;
+  border-color: #fff;
+
+  &:hover {
+    border-color: #101a33;
+  }
+}
+
+.content {
+  p {
+    font-size: 1.125rem;
+  }
+
+  > * + * {
+    margin-top: 1rem;
+  }
+}
+
+footer {
+  padding: 2rem 1rem;
+  color: #fff;
+  background-color: $color-primary;
+
+  h2 {
+    margin-bottom: 1rem;
+  }
+
+  img {
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+
+  a {
+    color: #fff;
+    text-decoration: underline;
+  }
+
+  p + p {
+    margin-top: 0.5rem;
+  }
+}
+
+.author {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.author-avatar {
+  width: 70px;
+  height: 70px;
+  flex: 0 0 70px;
+  object-fit: cover;
+}
+
+.author-meta {
+  flex: 1;
+}
+
+.author-name {
+  font-weight: bold;
+  font-size: 1.25rem;
+}

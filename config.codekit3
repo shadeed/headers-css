@@ -161,6 +161,17 @@
 		"plM": 52780316221407,
 		"prP": 0
 		},
+	"/img/cover.png": {
+		"ft": 32768,
+		"iS": 321978,
+		"oA": 0,
+		"oAP": "/img/cover.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"/img/header-3/search.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -180,6 +191,27 @@
 		"opt": 0,
 		"plM": 52780316221407,
 		"prP": 0
+		},
+	"/img/header-icon.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/img/header-icon.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/img/headers.png": {
+		"ft": 32768,
+		"iS": 399308,
+		"oA": 0,
+		"oAP": "/img/headers.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
 		},
 	"/img/pattern.svg": {
 		"ft": 2097152,
@@ -862,6 +894,29 @@
 		"oA": 0,
 		"oAP": "/styles/header-9.css",
 		"oF": 2,
+		"oS": 0,
+		"sct": 1
+		},
+	"/styles/home.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/styles/home-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/styles/home.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/styles/home.css",
+		"oF": 0,
 		"oS": 0,
 		"sct": 1
 		},

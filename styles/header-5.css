@@ -4,7 +4,7 @@
 */
 .brand {
   font-weight: bold;
-  font-size: 27px; }
+  font-size: 20px; }
 
 .site-header {
   position: relative;
@@ -69,8 +69,8 @@
 .nav__item svg {
   display: inline-block;
   vertical-align: middle;
-  width: 28px;
-  height: 28px;
+  width: 22px;
+  height: 22px;
   margin-right: 1rem; }
   @media (min-width: 940px) {
     .nav__item svg {
