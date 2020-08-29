@@ -1,3 +1,11 @@
+/* 
+** The Header Media Queries **
+** Tweak as per your needs **
+*/
+.brand {
+  font-weight: bold;
+  font-size: 20px; }
+
 .site-header {
   position: relative;
   background-color: #def7ff; }
@@ -9,10 +17,6 @@
 .site-header__end {
   display: flex;
   align-items: center; }
-
-.brand {
-  font-weight: bold;
-  font-size: 20px; }
 
 .site-header__wrapper {
   display: flex;
@@ -31,7 +35,7 @@
 @media (max-width: 864px) {
   .nav__wrapper {
     position: absolute;
-    top: 100%;
+    top: calc(100% + 35px);
     right: 0;
     left: 0;
     z-index: -1;
@@ -47,7 +51,7 @@
 
 @media (min-width: 865px) {
   .nav__item:first-child a {
-    border-left: 1px solid #b5b5b5; } }
+    border-left: 1px solid #8a8383; } }
 
 .nav__item:not(:last-child) {
   margin-right: 0.5rem; }
@@ -58,7 +62,7 @@
   border-left: 4px solid transparent; }
   @media (min-width: 865px) {
     .nav__item a {
-      border-right: 1px solid #b5b5b5;
+      border-right: 1px solid #8a8383;
       text-align: center;
       box-shadow: inset 0 -4px 0 0 transparent; } }
 .nav__item svg {
@@ -71,11 +75,10 @@
     .nav__item svg {
       display: block;
       margin: 0 auto 0.5rem; } }
-.nav__item.active a {
-  border-left-color: #222; }
-  @media (min-width: 865px) {
-    .nav__item.active a {
-      box-shadow: inset 0 -4px 0 0 #222; } }
+@media (min-width: 865px) {
+  .nav__item.active a {
+    box-shadow: inset 0 -4px 0 0 #222; } }
+
 .nav__toggle {
   display: none; }
   @media (max-width: 864px) {

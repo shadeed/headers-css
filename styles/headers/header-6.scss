@@ -1,14 +1,13 @@
-$small: 600px;
-$medium: 800px;
-$large: 1200;
+/* 
+** The Header Media Queries **
+** Tweak as per your needs **
+*/
 
-.button {
-  appearance: none;
-  color: #fff;
-  background-color: #2fa0f6;
-  min-width: 120px;
-  padding: 0.8rem 1rem;
-  text-align: center;
+$small: 600px;
+
+.brand {
+  font-weight: bold;
+  font-size: 20px;
 }
 
 .site-header {
@@ -22,11 +21,6 @@ $large: 1200;
 
 .site-header__bottom {
   background-color: #c7f2ff;
-}
-
-.brand {
-  font-weight: bold;
-  font-size: 20px;
 }
 
 .site-header__wrapper {

@@ -1,14 +1,13 @@
-$small: 800px;
-$medium: 800px;
-$large: 1200;
+/* 
+** The Header Media Queries **
+** Tweak as per your needs **
+*/
 
-.button {
-  appearance: none;
-  color: #fff;
-  background-color: #2fa0f6;
-  min-width: 120px;
-  padding: 0.5rem 1rem;
-  text-align: center;
+$small: 800px;
+
+.brand {
+  font-weight: bold;
+  font-size: 27px;
 }
 
 .site-header__top {
@@ -43,11 +42,6 @@ $large: 1200;
   justify-content: space-between;
 }
 
-.brand {
-  font-weight: bold;
-  font-size: 27px;
-}
-
 .site-header__wrapper {
   display: flex;
   justify-content: space-between;
@@ -57,6 +51,13 @@ $large: 1200;
   @media (min-width: 940px) {
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
+  }
+
+  .site-header__top & {
+    @media (min-width: 940px) {
+      padding-top: 1rem;
+      padding-bottom: 1rem;
+    }
   }
 }
 

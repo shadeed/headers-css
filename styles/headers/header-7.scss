@@ -1,15 +1,18 @@
-$small: 660px;
-$medium: 800px;
-$large: 1200;
+/* 
+** The Header Media Queries **
+** Tweak as per your needs **
+*/
 
-.site-header {
-  position: relative;
-  background-color: #def7ff;
-}
+$small: 660px;
 
 .brand {
   font-weight: bold;
   font-size: 20px;
+}
+
+.site-header {
+  position: relative;
+  background-color: #def7ff;
 }
 
 .site-header__wrapper {
@@ -57,10 +60,6 @@ $large: 1200;
 }
 
 .nav__item {
-  &:not(:last-child) {
-    margin-right: 0.5rem;
-  }
-
   a {
     display: block;
     padding: 1rem;

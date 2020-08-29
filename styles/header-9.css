@@ -1,18 +1,14 @@
-.button {
-  appearance: none;
-  color: #fff;
-  background-color: #2fa0f6;
-  min-width: 120px;
-  padding: 0.5rem 1rem;
-  text-align: center; }
+/* 
+** The Header Media Queries **
+** Tweak as per your needs **
+*/
+.brand {
+  font-weight: bold;
+  font-size: 20px; }
 
 .site-header {
   position: relative;
   background-color: #def7ff; }
-
-.brand {
-  font-weight: bold;
-  font-size: 20px; }
 
 .site-header__wrapper {
   display: flex;
@@ -51,9 +47,6 @@
       visibility: visible;
       opacity: 1;
       transform: translateY(0); } }
-
-.nav__item:not(:last-child) {
-  margin-right: 0.5rem; }
 
 .nav__item a {
   display: block;

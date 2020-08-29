@@ -1,11 +1,9 @@
-$small: 600px;
-$medium: 800px;
-$large: 1200;
+/* 
+** The Header Media Queries **
+** Tweak as per your needs **
+*/
 
-.site-header {
-  position: relative;
-  background-color: #def7ff;
-}
+$small: 600px;
 
 .brand {
   display: inline-block;
@@ -15,6 +13,11 @@ $large: 1200;
   @media (min-width: $small) {
     margin-bottom: 1rem;
   }
+}
+
+.site-header {
+  position: relative;
+  background-color: #def7ff;
 }
 
 .site-header__wrapper {
@@ -52,10 +55,6 @@ $large: 1200;
 }
 
 .nav__item {
-  &:not(:last-child) {
-    margin-right: 0.5rem;
-  }
-
   a {
     display: block;
     padding: 1rem;

@@ -1,15 +1,18 @@
-$small: 600px;
-$medium: 800px;
-$large: 1200;
+/* 
+** The Header Media Queries **
+** Tweak as per your needs **
+*/
 
-.site-header {
-  position: relative;
-  background-color: #def7ff;
-}
+$small: 600px;
 
 .brand {
   font-weight: bold;
   font-size: 20px;
+}
+
+.site-header {
+  position: relative;
+  background-color: #def7ff;
 }
 
 .site-header__wrapper {
@@ -26,7 +29,6 @@ $large: 1200;
 }
 
 .nav__wrapper {
-
   @media (min-width: $small) {
     display: flex;
   }
@@ -41,7 +43,7 @@ $large: 1200;
     visibility: hidden;
     opacity: 0;
     transform: translateY(-100%);
-    transition: 0.3s ease-out;
+    transition: transform 0.3s ease-out, opacity 0.3s ease-out;
 
     &.active {
       visibility: visible;
@@ -52,10 +54,6 @@ $large: 1200;
 }
 
 .nav__item {
-  &:not(:last-child) {
-    margin-right: 0.5rem;
-  }
-
   a {
     display: block;
     padding: 1rem;

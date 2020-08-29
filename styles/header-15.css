@@ -1,7 +1,7 @@
-.site-header {
-  position: relative;
-  background-color: #def7ff; }
-
+/* 
+** The Header Media Queries **
+** Tweak as per your needs **
+*/
 .brand {
   display: inline-block;
   font-weight: bold;
@@ -9,6 +9,10 @@
   @media (min-width: 600px) {
     .brand {
       margin-bottom: 1rem; } }
+.site-header {
+  position: relative;
+  background-color: #def7ff; }
+
 .site-header__wrapper {
   padding-top: 1rem;
   padding-bottom: 0.5rem; }
@@ -35,9 +39,6 @@
       visibility: visible;
       opacity: 1;
       transform: translateY(0); } }
-
-.nav__item:not(:last-child) {
-  margin-right: 0.5rem; }
 
 .nav__item a {
   display: block;

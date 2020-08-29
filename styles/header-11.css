@@ -1,32 +1,14 @@
-.button {
-  appearance: none;
-  color: #fff;
-  background-color: #2fa0f6;
-  min-width: 120px;
-  padding: 0.5rem 1rem;
-  text-align: center; }
-  .button svg {
-    display: inline-block;
-    vertical-align: middle;
-    width: 24px;
-    height: 24px;
-    fill: #fff; }
-  .button span {
-    display: none; }
-    @media (min-width: 600px) {
-      .button span {
-        display: initial; } }
-.button--icon {
-  min-width: initial;
-  padding: 0.5rem; }
+/* 
+** The Header Media Queries **
+** Tweak as per your needs **
+*/
+.brand {
+  font-weight: bold;
+  font-size: 20px; }
 
 .site-header {
   position: relative;
   background-color: #def7ff; }
-
-.brand {
-  font-weight: bold;
-  font-size: 20px; }
 
 .site-header__wrapper {
   display: flex;

@@ -1,6 +1,14 @@
+/* 
+** The Header Media Queries **
+** Tweak as per your needs **
+*/
+
 $small: 865px;
-$medium: 800px;
-$large: 1200;
+
+.brand {
+  font-weight: bold;
+  font-size: 20px;
+}
 
 .site-header {
   position: relative;
@@ -15,11 +23,6 @@ $large: 1200;
 .site-header__end {
   display: flex;
   align-items: center;
-}
-
-.brand {
-  font-weight: bold;
-  font-size: 20px;
 }
 
 .site-header__wrapper {
@@ -42,7 +45,7 @@ $large: 1200;
 
   @media (max-width: $small - 1) {
     position: absolute;
-    top: 100%;
+    top: calc(100% + 35px);
     right: 0;
     left: 0;
     z-index: -1;
@@ -64,7 +67,7 @@ $large: 1200;
   &:first-child {
     @media (min-width: $small) {
       a {
-        border-left: 1px solid #b5b5b5;
+        border-left: 1px solid #8a8383;
       }
     }
   }
@@ -79,7 +82,7 @@ $large: 1200;
     border-left: 4px solid transparent;
 
     @media (min-width: $small) {
-      border-right: 1px solid #b5b5b5;
+      border-right: 1px solid #8a8383;
       text-align: center;
       box-shadow: inset 0 -4px 0 0 transparent;
     }
@@ -100,8 +103,6 @@ $large: 1200;
 
   &.active {
     a {
-      border-left-color: #222;
-
       @media (min-width: $small) {
         box-shadow: inset 0 -4px 0 0 #222;
       }

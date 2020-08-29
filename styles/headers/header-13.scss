@@ -1,45 +1,18 @@
+/* 
+** The Header Media Queries **
+** Tweak as per your needs **
+*/
+
 $small: 680px;
-$medium: 800px;
-$large: 1200;
 
-.button {
-  appearance: none;
-  color: #fff;
-  background-color: #2fa0f6;
-  min-width: 120px;
-  padding: 0.5rem 1rem;
-  text-align: center;
-
-  svg {
-    display: inline-block;
-    vertical-align: middle;
-    width: 24px;
-    height: 24px;
-    fill: #fff;
-  }
-
-  span {
-    display: none;
-
-    @media (min-width: $small) {
-      display: initial;
-    }
-  }
-}
-
-.button--icon {
-  min-width: initial;
-  padding: 0.5rem;
+.brand {
+  font-weight: bold;
+  font-size: 20px;
 }
 
 .site-header {
   position: relative;
   background-color: #def7ff;
-}
-
-.brand {
-  font-weight: bold;
-  font-size: 20px;
 }
 
 .site-header__wrapper {

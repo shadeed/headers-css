@@ -554,6 +554,16 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"/styles/header-17.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/styles/header-17-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"/styles/header-2.css": {
 		"aP": 1,
 		"bl": 0,
@@ -712,16 +722,6 @@
 		"oS": 0,
 		"sct": 1
 		},
-	"/styles/headers/header-15.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/styles/headers/header-15-min.css",
-		"oF": 0,
-		"oS": 3
-		},
 	"/styles/headers/header-15.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -825,16 +825,6 @@
 		"oF": 2,
 		"oS": 0,
 		"sct": 1
-		},
-	"/styles/headers/header-7.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/styles/headers/header-7-min.css",
-		"oF": 0,
-		"oS": 3
 		},
 	"/styles/headers/header-7.scss": {
 		"aP": 0,

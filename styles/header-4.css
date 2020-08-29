@@ -1,3 +1,11 @@
+/* 
+** The Header Media Queries **
+** Tweak as per your needs **
+*/
+.brand {
+  font-weight: bold;
+  font-size: 20px; }
+
 .site-header {
   position: relative;
   background-color: #def7ff; }
@@ -9,10 +17,6 @@
 .site-header__end {
   display: flex;
   align-items: center; }
-
-.brand {
-  font-weight: bold;
-  font-size: 20px; }
 
 .site-header__wrapper {
   display: flex;

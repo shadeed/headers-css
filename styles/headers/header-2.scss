@@ -1,15 +1,18 @@
-$small: 600px;
-$medium: 800px;
-$large: 1200;
+/* 
+** The Header Media Queries **
+** Tweak as per your needs **
+*/
 
-.site-header {
-  position: relative;
-  background-color: #def7ff;
-}
+$small: 600px;
 
 .brand {
   font-weight: bold;
   font-size: 20px;
+}
+
+.site-header {
+  position: relative;
+  background-color: #def7ff;
 }
 
 .site-header__wrapper {
@@ -25,11 +28,10 @@ $large: 1200;
 }
 
 .nav {
-    flex: 1;
+  flex: 1;
 }
 
 .nav__wrapper {
-
   @media (min-width: $small) {
     display: flex;
   }
@@ -55,10 +57,6 @@ $large: 1200;
 }
 
 .nav__item {
-  &:not(:last-child) {
-    margin-right: 0.5rem;
-  }
-
   a {
     display: block;
     padding: 1rem;
@@ -66,9 +64,9 @@ $large: 1200;
 }
 
 .nav__item--end {
-    @media (min-width: $small) {
-        margin-left: auto;
-    }
+  @media (min-width: $small) {
+    margin-left: auto;
+  }
 }
 
 .nav__toggle {

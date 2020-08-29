@@ -1,24 +1,18 @@
-$small: 630px;
-$medium: 800px;
-$large: 1200;
+/* 
+** The Header Media Queries **
+** Tweak as per your needs **
+*/
 
-.button {
-  appearance: none;
-  color: #fff;
-  background-color: #2fa0f6;
-  min-width: 120px;
-  padding: 0.5rem 1rem;
-  text-align: center;
+$small: 630px;
+
+.brand {
+  font-weight: bold;
+  font-size: 20px;
 }
 
 .site-header {
   position: relative;
   background-color: #def7ff;
-}
-
-.brand {
-  font-weight: bold;
-  font-size: 20px;
 }
 
 .site-header__wrapper {
@@ -71,10 +65,6 @@ $large: 1200;
 }
 
 .nav__item {
-  &:not(:last-child) {
-    margin-right: 0.5rem;
-  }
-
   a {
     display: block;
     padding: 1rem;

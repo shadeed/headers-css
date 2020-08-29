@@ -1,15 +1,18 @@
-$small: 600px;
-$medium: 800px;
-$large: 1200;
+/* 
+** The Header Media Queries **
+** Tweak as per your needs **
+*/
 
-.site-header {
-  position: relative;
-  background-color: #def7ff;
-}
+$small: 600px;
 
 .brand {
   font-weight: bold;
   font-size: 20px;
+}
+
+.site-header {
+  position: relative;
+  background-color: #def7ff;
 }
 
 .site-header__wrapper {

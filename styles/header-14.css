@@ -1,10 +1,10 @@
-.button {
-  appearance: none;
-  color: #fff;
-  background-color: #2fa0f6;
-  min-width: 120px;
-  padding: 0.5rem 1rem;
-  text-align: center; }
+/* 
+** The Header Media Queries **
+** Tweak as per your needs **
+*/
+.brand {
+  font-weight: bold;
+  font-size: 27px; }
 
 .site-header__top {
   background-color: #def7ff; }
@@ -24,10 +24,6 @@
 .site-header__wrapper {
   display: flex;
   justify-content: space-between; }
-
-.brand {
-  font-weight: bold;
-  font-size: 27px; }
 
 .site-header__wrapper {
   display: flex;
