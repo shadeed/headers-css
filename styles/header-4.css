@@ -35,7 +35,7 @@
 @media (max-width: 799px) {
   .nav__wrapper {
     position: absolute;
-    top: 100%;
+    top: calc(100% + 35px);
     right: 0;
     left: 0;
     z-index: -1;

@@ -51,13 +51,19 @@
       opacity: 1;
       transform: translateY(0); } }
 
-.nav__item:not(:last-child) {
-  margin-right: 2rem; }
+@media (min-width: 600px) {
+  .nav__item:not(:last-child) {
+    margin-right: 2rem; } }
+
+@media (max-width: 599px) {
+  .nav__item a {
+    padding-left: 1rem;
+    padding-right: 1rem; } }
 
 .nav__item a {
   display: block;
-  padding-top: 1rem;
-  padding-bottom: 1rem; }
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem; }
 
 .nav__toggle {
   display: none; }

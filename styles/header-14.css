@@ -83,8 +83,8 @@
 
 .nav__item a {
   display: block;
-  padding-top: 1rem;
-  padding-bottom: 1rem; }
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem; }
   @media (max-width: 939px) {
     .nav__item a {
       padding: 1rem; } }

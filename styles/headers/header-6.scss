@@ -70,14 +70,23 @@ $small: 600px;
 }
 
 .nav__item {
-  &:not(:last-child) {
-    margin-right: 2rem;
+  @media (min-width: $small) {
+    &:not(:last-child) {
+      margin-right: 2rem;
+    }
+  }
+
+  @media (max-width: $small - 1px) {
+    a {
+      padding-left: 1rem;
+      padding-right: 1rem;
+    }
   }
 
   a {
     display: block;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
   }
 }
 

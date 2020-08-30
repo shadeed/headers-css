@@ -45,7 +45,7 @@
 
 .nav__item a {
   display: block;
-  padding: 1rem; }
+  padding: 1.5rem 1rem; }
 
 @media (min-width: 600px) {
   .nav__item--end {

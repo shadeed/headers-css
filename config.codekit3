@@ -261,17 +261,6 @@
 		"oAP": "/index.html",
 		"oF": 0
 		},
-	"/js/header-1-min.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/js/header-1-min-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
 	"/js/header-1.js": {
 		"bF": 0,
 		"ft": 64,
@@ -279,17 +268,6 @@
 		"mi": 1,
 		"oA": 0,
 		"oAP": "/js/header-1-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"/js/header-10-min.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/js/header-10-min-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -327,17 +305,6 @@
 		"sC": 1,
 		"tS": 0
 		},
-	"/js/header-13-min.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/js/header-13-min-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
 	"/js/header-13.js": {
 		"bF": 0,
 		"ft": 64,
@@ -345,17 +312,6 @@
 		"mi": 1,
 		"oA": 0,
 		"oAP": "/js/header-13-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"/js/header-14-min.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/js/header-14-min-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -415,17 +371,6 @@
 		"sC": 1,
 		"tS": 0
 		},
-	"/js/header-3-min.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/js/header-3-min-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
 	"/js/header-3.js": {
 		"bF": 0,
 		"ft": 64,
@@ -448,17 +393,6 @@
 		"sC": 1,
 		"tS": 0
 		},
-	"/js/header-5-min.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/js/header-5-min-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
 	"/js/header-5.js": {
 		"bF": 0,
 		"ft": 64,
@@ -466,17 +400,6 @@
 		"mi": 1,
 		"oA": 0,
 		"oAP": "/js/header-5-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"/js/header-6-min.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/js/header-6-min-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -492,17 +415,6 @@
 		"sC": 1,
 		"tS": 0
 		},
-	"/js/header-7-min.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/js/header-7-min-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
 	"/js/header-7.js": {
 		"bF": 0,
 		"ft": 64,
@@ -514,17 +426,6 @@
 		"sC": 1,
 		"tS": 0
 		},
-	"/js/header-8-min.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/js/header-8-min-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
 	"/js/header-8.js": {
 		"bF": 0,
 		"ft": 64,
@@ -532,6 +433,17 @@
 		"mi": 1,
 		"oA": 0,
 		"oAP": "/js/header-8-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/js/header-9.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/js/header-9-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
