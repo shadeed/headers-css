@@ -71,7 +71,7 @@ $small: 660px;
     visibility: hidden;
     opacity: 0;
     transform: translateY(-100%);
-    transition: 0.3s ease-out;
+    transition: transform 0.3s ease-out, opacity 0.3s ease-out;
 
     &.active {
       visibility: visible;

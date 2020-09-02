@@ -17,12 +17,6 @@
 		"oAP": "/.gitignore",
 		"oF": 0
 		},
-	"/.idea": {
-		"ft": 65536,
-		"oA": 1,
-		"oAP": "/build/.idea",
-		"oF": 0
-		},
 	"/header-1.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -158,6 +152,17 @@
 		"oA": 0,
 		"oAP": "/header-9.html",
 		"oF": 0
+		},
+	"/header-css.jpg": {
+		"ft": 16384,
+		"iS": 572680,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/header-css.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"/img/burger.svg": {
 		"ft": 2097152,
@@ -447,6 +452,25 @@
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
+		},
+	"/readme.md": {
+		"cB": 0,
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/readme.html",
+		"oF": 1,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
 		},
 	"/styles/header-1.css": {
 		"aP": 1,

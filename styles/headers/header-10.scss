@@ -4,6 +4,7 @@
 */
 
 $small: 800px;
+$medium: 940px;
 
 .brand {
   font-weight: bold;
@@ -31,7 +32,7 @@ $small: 800px;
   background-color: #c7f2ff;
 
   .site-header__end {
-    @media (max-width: 940px - 1) {
+    @media (max-width: $medium - 1) {
       order: -1;
     }
   }
@@ -48,13 +49,13 @@ $small: 800px;
   align-items: center;
   padding: 1rem;
 
-  @media (min-width: 940px) {
+  @media (min-width: $medium) {
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
   }
 
   .site-header__top & {
-    @media (min-width: 940px) {
+    @media (min-width: $medium) {
       padding-top: 1rem;
       padding-bottom: 1rem;
     }
@@ -69,11 +70,11 @@ $small: 800px;
 .nav__wrapper {
   //display: none;
 
-  @media (min-width: 940px) {
+  @media (min-width: $medium) {
     display: flex;
   }
 
-  @media (max-width: 940px - 1) {
+  @media (max-width: $medium - 1) {
     position: absolute;
     top: 100%;
     right: 0;
@@ -83,7 +84,7 @@ $small: 800px;
     visibility: hidden;
     opacity: 0;
     transform: translateY(-100%);
-    transition: 0.3s ease-out;
+    transition: transform 0.3s ease-out, opacity 0.3s ease-out;
 
     &.active {
       visibility: visible;
@@ -106,7 +107,7 @@ $small: 800px;
     height: 28px;
     margin-right: 1rem;
 
-    @media (min-width: 940px) {
+    @media (min-width: $medium) {
       display: block;
       margin: 0 auto 0.5rem;
     }
@@ -128,7 +129,7 @@ $small: 800px;
   right: 1rem;
   top: 1rem;
 
-  @media (min-width: 940px) {
+  @media (min-width: $medium) {
     display: none;
   }
 }
@@ -146,7 +147,7 @@ $small: 800px;
   background: url("../img/header-3/search.svg") center/22px no-repeat;
   border: 0;
 
-  @media (max-width: 940px - 1) {
+  @media (max-width: $medium - 1) {
     position: absolute;
     right: 5.5rem;
     top: 0.65rem;

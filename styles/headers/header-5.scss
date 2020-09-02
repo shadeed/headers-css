@@ -3,7 +3,8 @@
 ** Tweak as per your needs **
 */
 
-$small: 800px;
+$small: 940px;
+$medium: 1240px;
 
 .brand {
   font-weight: bold;
@@ -25,7 +26,7 @@ $small: 800px;
   align-items: center;
   padding: 1rem;
 
-  @media (min-width: 940px) {
+  @media (min-width: $small) {
     padding-top: 0;
     padding-bottom: 0;
   }
@@ -39,12 +40,12 @@ $small: 800px;
 .nav__wrapper {
   //display: none;
 
-  @media (min-width: 940px) {
+  @media (min-width: $small) {
     display: flex;
     justify-content: center;
   }
 
-  @media (max-width: 940px - 1) {
+  @media (max-width: $small - 1) {
     position: absolute;
     top: 100%;
     right: 0;
@@ -54,7 +55,7 @@ $small: 800px;
     visibility: hidden;
     opacity: 0;
     transform: translateY(-100%);
-    transition: 0.3s ease-out;
+    transition: transform 0.3s ease-out, opacity 0.3s ease-out;
 
     &.active {
       visibility: visible;
@@ -65,7 +66,7 @@ $small: 800px;
 }
 
 .nav__item {
-  @media (min-width: 940px) {
+  @media (min-width: $small) {
     &:last-child {
       a {
         border-right: 1px solid #222;
@@ -83,7 +84,7 @@ $small: 800px;
     padding: 1rem 1.25rem;
     border-left: 4px solid transparent;
 
-    @media (min-width: 940px) {
+    @media (min-width: $small) {
       text-align: center;
       border-left: 1px solid #222;
       border-bottom: 4px solid transparent;
@@ -97,7 +98,7 @@ $small: 800px;
     height: 22px;
     margin-right: 1rem;
 
-    @media (min-width: 940px) {
+    @media (min-width: $small) {
       display: block;
       margin: 0 auto 0.5rem;
     }
@@ -119,7 +120,7 @@ $small: 800px;
   right: 1rem;
   top: 1rem;
 
-  @media (min-width: 940px) {
+  @media (min-width: $small) {
     display: none;
   }
 }
@@ -139,11 +140,11 @@ $small: 800px;
   border: 0;
   display: none;
 
-  @media (max-width: 1240px - 1) {
+  @media (max-width: $medium - 1) {
     display: block;
   }
 
-  @media (max-width: 940px - 1) {
+  @media (max-width: $small - 1) {
     position: absolute;
     right: 5.5rem;
     top: 0.65rem;
@@ -160,7 +161,7 @@ $small: 800px;
   flex: 1;
   display: none;
 
-  @media (min-width: 1240px) {
+  @media (min-width: $medium) {
     display: block;
 
     input {
@@ -168,7 +169,7 @@ $small: 800px;
     }
   }
 
-  @media (max-width: 1240px - 1) {
+  @media (max-width: $medium - 1) {
     position: absolute;
     left: 0;
     right: 0;

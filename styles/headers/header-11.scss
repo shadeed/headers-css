@@ -34,7 +34,7 @@ $small: 600px;
   opacity: 0;
   transform: translateX(-100%);
   background-color: #d9f0f7;
-  transition: 0.3s ease-out;
+  transition: transform 0.3s ease-out, opacity 0.3s ease-out;
   display: block;
 
   &.active {
@@ -51,15 +51,4 @@ $small: 600px;
     display: block;
     padding: 1rem;
   }
-}
-
-.nav__toggle {
-  //display: none;
-
-  //   @media (max-width: $small - 1) {
-  //     display: block;
-  //     position: absolute;
-  //     right: 1rem;
-  //     top: 1rem;
-  //   }
 }

@@ -42,7 +42,7 @@
     visibility: hidden;
     opacity: 0;
     transform: translateY(-100%);
-    transition: 0.3s ease-out; }
+    transition: transform 0.3s ease-out, opacity 0.3s ease-out; }
     .nav__wrapper.active {
       visibility: visible;
       opacity: 1;
@@ -78,7 +78,7 @@
       margin: 0 auto 0.5rem; } }
 .nav__item.active a {
   border-left-color: #222; }
-  @media (min-width: 800px) {
+  @media (min-width: 940px) {
     .nav__item.active a {
       border-bottom-color: #222; } }
 .nav__toggle {
@@ -139,7 +139,7 @@
     border-radius: 0;
     font-size: 16px;
     padding: 0.5rem; }
-    @media (max-width: 799px) {
+    @media (max-width: 939px) {
       .search__form input {
         border-bottom: 1px solid #979797; } }
 .inactive-item {

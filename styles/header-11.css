@@ -28,7 +28,7 @@
   opacity: 0;
   transform: translateX(-100%);
   background-color: #d9f0f7;
-  transition: 0.3s ease-out;
+  transition: transform 0.3s ease-out, opacity 0.3s ease-out;
   display: block; }
   .nav__wrapper.active {
     visibility: visible;

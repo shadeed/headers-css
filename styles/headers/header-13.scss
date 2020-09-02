@@ -43,7 +43,7 @@ $small: 680px;
 
 .nav__wrapper {
   position: fixed;
-  top: 56px;
+  top: 66px;
   left: 0;
   width: Max(220px, 20%);
   bottom: 0;
@@ -52,7 +52,7 @@ $small: 680px;
   opacity: 0;
   transform: translateX(-100%);
   background-color: #d9f0f7;
-  transition: 0.3s ease-out;
+  transition: transform 0.3s ease-out, opacity 0.3s ease-out;
   display: block;
 
   &.active {
