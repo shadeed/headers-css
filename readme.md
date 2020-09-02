@@ -11,11 +11,11 @@ I got the idea of designing and implementing a blueprint website header componen
 
 ## How To Use
 
-I didn't build this project with a "smart" way to get the files. For now, you can gram the HTML, Sass and Javascript related for the header you want to check. I will try to enhance this.
+I didn't build this project with a "smart" way to get the files. For now, you can get the HTML, Sass, and Javascript related for the header you want to check. I will try to enhance this.
 
 ## Contributions
 
-Oh, that would be great and very nice from you. Please submit an issue to discuss or simply add a PR.
+Oh, that would be great and very nice of you. Please submit an issue to discuss or simply add a PR.
 
 ## Issues
 
