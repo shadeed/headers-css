@@ -88,8 +88,12 @@ $small: 660px;
 
   a {
     display: block;
-    padding-top: 1.5rem;
-    padding-bottom: 1.5rem;
+    padding: 1.5rem 1rem;
+
+    @media (min-width: $small) {
+      padding-left: 0;
+      padding-right: 0;
+    }
   }
 }
 

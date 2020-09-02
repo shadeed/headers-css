@@ -17,6 +17,11 @@ While working on them, I tried to focus on the following:
 
 I didn't build this project with a "smart" way to get the files. For now, you can get the HTML, Sass, and Javascript related for the header you want to check. I will try to enhance this.
 
+## Todo
+
+- [ ] Think about a build process
+- [ ] RTL Styling
+
 ## Contributions
 
 Oh, that would be great and very nice of you. Please submit an issue to discuss or simply add a PR.

@@ -66,9 +66,11 @@
 
 .nav__item a {
   display: block;
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem; }
-
+  padding: 1.5rem 1rem; }
+  @media (min-width: 660px) {
+    .nav__item a {
+      padding-left: 0;
+      padding-right: 0; } }
 .nav__toggle {
   display: none; }
   @media (max-width: 659px) {
