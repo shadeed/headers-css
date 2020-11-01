@@ -58,8 +58,13 @@ section {
 
 .links-wrapper {
   display: flex;
+  flex-direction: column;
   flex-wrap: wrap;
   justify-content: center;
+
+  @media (min-width: 720px) {
+    flex-direction: row;
+  }
 }
 
 .link {
@@ -74,7 +79,12 @@ section {
     border 0.3s ease-out;
 
   &:first-child {
-    margin-right: 1rem;
+    margin-bottom: 1rem;
+
+    @media (min-width: 720px) {
+      margin-right: 1rem;
+      margin-bottom: 0;
+    }
   }
 
   &:hover {

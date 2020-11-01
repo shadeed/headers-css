@@ -40,9 +40,12 @@ section {
 
 .links-wrapper {
   display: flex;
+  flex-direction: column;
   flex-wrap: wrap;
   justify-content: center; }
-
+  @media (min-width: 720px) {
+    .links-wrapper {
+      flex-direction: row; } }
 .link {
   display: inline-block;
   padding: 0.5rem 1rem;
@@ -53,7 +56,11 @@ section {
   border-radius: 100px;
   transition: background 0.3s ease-out, color 0.3s ease-out, border 0.3s ease-out; }
   .link:first-child {
-    margin-right: 1rem; }
+    margin-bottom: 1rem; }
+    @media (min-width: 720px) {
+      .link:first-child {
+        margin-right: 1rem;
+        margin-bottom: 0; } }
   .link:hover {
     color: #fff;
     background-color: #101a33; }
